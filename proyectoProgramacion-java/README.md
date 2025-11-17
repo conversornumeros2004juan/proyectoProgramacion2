@@ -8,7 +8,7 @@ Proyecto Maven listo para abrir en NetBeans:
 1) En `src/main/resources/` coloca tu `firebase-service-account.json` (descargado desde Firebase → Configuración del proyecto → Cuentas de servicio → Generar nueva clave privada).
 2) Abre `demo/MainConsole.java` **o** `demo/LoginFrame.java` y reemplaza:
    ```java
-   String apiKey = "PON_TU_API_KEY_AQUI";
+   String apiKey = "ApiKey";
    ```
    por tu **Clave de API web** que ves en Firebase → Configuración del proyecto → General.
 3) Ejecuta:
